@@ -1,0 +1,43 @@
+separated
+FILE,D:/Student Testing/555TimerBoard.dpv
+PCBFILE,Pick Place for 555timer
+DATE,2023/07/13
+TIME,11:58:17
+PANELYPE,0
+
+Table,No.,ID,DeltX,DeltY,FeedRates,Note,Height,Speed,Status,SizeX,SizeY,HeightTake,DelayTake
+Station,0,1,0,0,4,C1,0.5,0,4,0,0,0,0
+Station,1,2,0,0,4,Capcitor,0.5,0,4,0,0,0,0
+Station,2,3,0,0,4,led1,0.5,0,4,0,0,0,0
+Station,3,4,0,0,4,led2,0.5,0,4,0,0,0,0
+Station,4,5,0,0,4,res100ohm,0.5,0,4,0,0,0,0
+Station,5,6,0,0,4,100ohm,0.5,0,4,0,0,0,0
+Station,6,7,0,0,4,dry run,0.5,0,4,0,0,0,0
+Station,7,8,0,0,4,555,0.5,0,4,0,0,0,0
+
+
+Table,No.,ID,DeltX,DeltY
+Panel_Coord,0,1,0,0
+
+
+Table,No.,ID,PHead,STNo.,DeltX,DeltY,Angle,Height,Skip,Speed,Explain,Note,Delay
+EComponent,0,1,1,1,29.71,36.32,90,0.5,4,50,C1,C1,0
+EComponent,1,2,1,2,22.35,36.32,90,0.5,4,50,C2,Capcitor,0
+EComponent,2,3,1,3,20.44,14.47,90,0.5,4,50,LED1,led1,0
+EComponent,3,4,1,4,33.78,14.47,90,0.5,4,50,LED2,led2,0
+EComponent,4,5,1,5,13.84,14.52,90,0.5,4,50,R1,res100ohm,0
+EComponent,5,6,1,5,27.17,14.47,90,0.5,4,50,R2,100ohm,0
+EComponent,6,7,1,5,8.12,36.32,90,0.5,4,50,R3,res100ohm,0
+EComponent,7,8,1,7,15.24,36.32,90,0.5,4,50,R4,dry run,0
+EComponent,8,9,1,8,24.25,25.85,150,0.5,4,50,U1,555,0
+
+
+Table,No.,ID,CenterX,CenterY,IntervalX,IntervalY,NumX,NumY,Start
+
+
+Table,No.,nType,nAlg,nFinished
+PcbCalib,0,0,0,0
+Table,No.,ID,offsetX,offsetY,Note
+CalibPoint,0,0,0,0,CalibPoint,1,0,0,0,
+Table,No.,DeltX,DeltY,AlphaX,AlphaY,BetaX,BetaY,DeltaAngle
+CalibFator,0,0,0,0,0,1,1,0
